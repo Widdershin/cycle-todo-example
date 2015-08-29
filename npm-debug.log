@@ -1,0 +1,615 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'eslint-config-semistandard',
+1 verbose cli   'eslint-config-standard',
+1 verbose cli   'eslint-plugin-cycle',
+1 verbose cli   'eslint-plugin-standard',
+1 verbose cli   '-g' ]
+2 info using npm@2.1.3
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'eslint-config-semistandard', null ]
+6 verbose cache add spec eslint-config-semistandard
+7 silly cache add args [ 'eslint-config-standard', null ]
+8 verbose cache add spec eslint-config-standard
+9 silly cache add args [ 'eslint-plugin-cycle', null ]
+10 verbose cache add spec eslint-plugin-cycle
+11 silly cache add args [ 'eslint-plugin-standard', null ]
+12 verbose cache add spec eslint-plugin-standard
+13 silly cache add parsed spec { raw: 'eslint-config-semistandard',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'eslint-config-semistandard',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 verbose addNamed eslint-config-semistandard@*
+15 verbose addNamed eslint-config-semistandard@* not in flight; adding
+16 silly addNamed semver.valid null
+17 silly addNamed semver.validRange *
+18 silly addNameRange { name: 'eslint-config-semistandard',
+18 silly addNameRange   range: '*',
+18 silly addNameRange   hasData: false }
+19 verbose mapToRegistry name eslint-config-semistandard
+20 verbose mapToRegistry uri https://registry.npmjs.org/eslint-config-semistandard
+21 silly cache add parsed spec { raw: 'eslint-config-standard',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'eslint-config-standard',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 verbose addNamed eslint-config-standard@*
+23 verbose addNamed eslint-config-standard@* not in flight; adding
+24 silly addNamed semver.valid null
+25 silly addNamed semver.validRange *
+26 silly addNameRange { name: 'eslint-config-standard', range: '*', hasData: false }
+27 verbose mapToRegistry name eslint-config-standard
+28 verbose mapToRegistry uri https://registry.npmjs.org/eslint-config-standard
+29 silly cache add parsed spec { raw: 'eslint-plugin-cycle',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'eslint-plugin-cycle',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: '*',
+29 silly cache add   type: 'range' }
+30 verbose addNamed eslint-plugin-cycle@*
+31 verbose addNamed eslint-plugin-cycle@* not in flight; adding
+32 silly addNamed semver.valid null
+33 silly addNamed semver.validRange *
+34 silly addNameRange { name: 'eslint-plugin-cycle', range: '*', hasData: false }
+35 verbose mapToRegistry name eslint-plugin-cycle
+36 verbose mapToRegistry uri https://registry.npmjs.org/eslint-plugin-cycle
+37 silly cache add parsed spec { raw: 'eslint-plugin-standard',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'eslint-plugin-standard',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 verbose addNamed eslint-plugin-standard@*
+39 verbose addNamed eslint-plugin-standard@* not in flight; adding
+40 silly addNamed semver.valid null
+41 silly addNamed semver.validRange *
+42 silly addNameRange { name: 'eslint-plugin-standard', range: '*', hasData: false }
+43 verbose mapToRegistry name eslint-plugin-standard
+44 verbose mapToRegistry uri https://registry.npmjs.org/eslint-plugin-standard
+45 verbose request on initialization, where is /eslint-plugin-cycle
+46 verbose request after pass 1, where is /eslint-plugin-cycle
+47 verbose request url raw /eslint-plugin-cycle
+48 verbose request resolving registry [ 'https://registry.npmjs.org/', './eslint-plugin-cycle' ]
+49 verbose request after pass 2, where is https://registry.npmjs.org/eslint-plugin-cycle
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 11:24:58
+52 verbose request using bearer token for auth
+53 verbose request id 8a4d62c5e811bf68
+54 verbose etag "7G6XKU8XKRB1KXHFDW5KHGW89"
+55 http request GET https://registry.npmjs.org/eslint-plugin-cycle
+56 verbose request on initialization, where is /eslint-config-semistandard
+57 verbose request after pass 1, where is /eslint-config-semistandard
+58 verbose request url raw /eslint-config-semistandard
+59 verbose request resolving registry [ 'https://registry.npmjs.org/',
+59 verbose request   './eslint-config-semistandard' ]
+60 verbose request after pass 2, where is https://registry.npmjs.org/eslint-config-semistandard
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 11:24:58
+63 verbose request using bearer token for auth
+64 verbose etag "1SL72XNCNZKI3YODNGV0N2ZI4"
+65 http request GET https://registry.npmjs.org/eslint-config-semistandard
+66 verbose request on initialization, where is /eslint-plugin-standard
+67 verbose request after pass 1, where is /eslint-plugin-standard
+68 verbose request url raw /eslint-plugin-standard
+69 verbose request resolving registry [ 'https://registry.npmjs.org/', './eslint-plugin-standard' ]
+70 verbose request after pass 2, where is https://registry.npmjs.org/eslint-plugin-standard
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 11:24:58
+73 verbose request using bearer token for auth
+74 verbose etag "8A9WUJD9K20NZY2ALSUKIIDE"
+75 http request GET https://registry.npmjs.org/eslint-plugin-standard
+76 verbose request on initialization, where is /eslint-config-standard
+77 verbose request after pass 1, where is /eslint-config-standard
+78 verbose request url raw /eslint-config-standard
+79 verbose request resolving registry [ 'https://registry.npmjs.org/', './eslint-config-standard' ]
+80 verbose request after pass 2, where is https://registry.npmjs.org/eslint-config-standard
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 11:24:58
+83 verbose request using bearer token for auth
+84 verbose etag "4ADQLR12496WGDRZYVD9R26ET"
+85 http request GET https://registry.npmjs.org/eslint-config-standard
+86 http 304 https://registry.npmjs.org/eslint-config-standard
+87 silly registry.get cb [ 304,
+87 silly registry.get   { 'cache-control': 'max-age=60',
+87 silly registry.get     'accept-ranges': 'bytes',
+87 silly registry.get     date: 'Sat, 29 Aug 2015 23:24:59 GMT',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     connection: 'keep-alive',
+87 silly registry.get     'x-served-by': 'cache-akl6421-AKL',
+87 silly registry.get     'x-cache': 'MISS',
+87 silly registry.get     'x-cache-hits': '0',
+87 silly registry.get     'x-timer': 'S1440890698.433079,VS0,VE634' } ]
+88 verbose etag https://registry.npmjs.org/eslint-config-standard from cache
+89 silly addNameRange number 2 { name: 'eslint-config-standard', range: '*', hasData: true }
+90 silly addNameRange versions [ 'eslint-config-standard',
+90 silly addNameRange   [ '1.0.0',
+90 silly addNameRange     '1.0.1',
+90 silly addNameRange     '1.1.0',
+90 silly addNameRange     '1.1.1',
+90 silly addNameRange     '1.2.0',
+90 silly addNameRange     '1.3.0',
+90 silly addNameRange     '1.3.1',
+90 silly addNameRange     '2.0.0',
+90 silly addNameRange     '2.0.1',
+90 silly addNameRange     '2.0.2',
+90 silly addNameRange     '3.0.0',
+90 silly addNameRange     '3.1.0',
+90 silly addNameRange     '3.2.0',
+90 silly addNameRange     '3.3.0',
+90 silly addNameRange     '3.4.0',
+90 silly addNameRange     '3.4.1',
+90 silly addNameRange     '4.0.0-0',
+90 silly addNameRange     '4.0.0-1',
+90 silly addNameRange     '4.0.0-2',
+90 silly addNameRange     '4.0.0-3',
+90 silly addNameRange     '4.0.0-4',
+90 silly addNameRange     '4.0.0-5',
+90 silly addNameRange     '4.0.0',
+90 silly addNameRange     '4.1.0' ] ]
+91 verbose addNamed eslint-config-standard@4.1.0
+92 verbose addNamed eslint-config-standard@4.1.0 not in flight; adding
+93 silly addNamed semver.valid 4.1.0
+94 silly addNamed semver.validRange 4.1.0
+95 verbose afterAdd /Users/nickj/.npm/eslint-config-standard/4.1.0/package/package.json not in flight; writing
+96 http 304 https://registry.npmjs.org/eslint-config-semistandard
+97 silly registry.get cb [ 304,
+97 silly registry.get   { 'cache-control': 'max-age=60',
+97 silly registry.get     'accept-ranges': 'bytes',
+97 silly registry.get     date: 'Sat, 29 Aug 2015 23:24:59 GMT',
+97 silly registry.get     via: '1.1 varnish',
+97 silly registry.get     connection: 'keep-alive',
+97 silly registry.get     'x-served-by': 'cache-akl6421-AKL',
+97 silly registry.get     'x-cache': 'MISS',
+97 silly registry.get     'x-cache-hits': '0',
+97 silly registry.get     'x-timer': 'S1440890698.429149,VS0,VE673' } ]
+98 verbose etag https://registry.npmjs.org/eslint-config-semistandard from cache
+99 silly addNameRange number 2 { name: 'eslint-config-semistandard', range: '*', hasData: true }
+100 silly addNameRange versions [ 'eslint-config-semistandard',
+100 silly addNameRange   [ '1.0.0',
+100 silly addNameRange     '1.0.1',
+100 silly addNameRange     '2.0.0',
+100 silly addNameRange     '3.0.0',
+100 silly addNameRange     '4.0.0',
+100 silly addNameRange     '5.0.0-1',
+100 silly addNameRange     '5.0.0-2',
+100 silly addNameRange     '5.0.0' ] ]
+101 verbose addNamed eslint-config-semistandard@5.0.0
+102 verbose addNamed eslint-config-semistandard@5.0.0 not in flight; adding
+103 silly addNamed semver.valid 5.0.0
+104 silly addNamed semver.validRange 5.0.0
+105 verbose afterAdd /Users/nickj/.npm/eslint-config-semistandard/5.0.0/package/package.json not in flight; writing
+106 http 304 https://registry.npmjs.org/eslint-plugin-cycle
+107 silly registry.get cb [ 304,
+107 silly registry.get   { 'cache-control': 'max-age=60',
+107 silly registry.get     'accept-ranges': 'bytes',
+107 silly registry.get     date: 'Sat, 29 Aug 2015 23:24:59 GMT',
+107 silly registry.get     via: '1.1 varnish',
+107 silly registry.get     connection: 'keep-alive',
+107 silly registry.get     'x-served-by': 'cache-akl6420-AKL',
+107 silly registry.get     'x-cache': 'MISS',
+107 silly registry.get     'x-cache-hits': '0',
+107 silly registry.get     'x-timer': 'S1440890698.430138,VS0,VE800' } ]
+108 verbose etag https://registry.npmjs.org/eslint-plugin-cycle from cache
+109 silly addNameRange number 2 { name: 'eslint-plugin-cycle', range: '*', hasData: true }
+110 silly addNameRange versions [ 'eslint-plugin-cycle', [ '1.0.0', '1.0.1' ] ]
+111 verbose addNamed eslint-plugin-cycle@1.0.1
+112 verbose addNamed eslint-plugin-cycle@1.0.1 not in flight; adding
+113 silly addNamed semver.valid 1.0.1
+114 silly addNamed semver.validRange 1.0.1
+115 verbose afterAdd /Users/nickj/.npm/eslint-plugin-cycle/1.0.1/package/package.json not in flight; writing
+116 http 304 https://registry.npmjs.org/eslint-plugin-standard
+117 silly registry.get cb [ 304,
+117 silly registry.get   { 'cache-control': 'max-age=60',
+117 silly registry.get     'accept-ranges': 'bytes',
+117 silly registry.get     date: 'Sat, 29 Aug 2015 23:24:59 GMT',
+117 silly registry.get     via: '1.1 varnish',
+117 silly registry.get     connection: 'keep-alive',
+117 silly registry.get     'x-served-by': 'cache-akl6421-AKL',
+117 silly registry.get     'x-cache': 'MISS',
+117 silly registry.get     'x-cache-hits': '0',
+117 silly registry.get     'x-timer': 'S1440890698.429067,VS0,VE813' } ]
+118 verbose etag https://registry.npmjs.org/eslint-plugin-standard from cache
+119 silly addNameRange number 2 { name: 'eslint-plugin-standard', range: '*', hasData: true }
+120 silly addNameRange versions [ 'eslint-plugin-standard',
+120 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.3.0' ] ]
+121 verbose addNamed eslint-plugin-standard@1.3.0
+122 verbose addNamed eslint-plugin-standard@1.3.0 not in flight; adding
+123 silly addNamed semver.valid 1.3.0
+124 silly addNamed semver.validRange 1.3.0
+125 verbose afterAdd /Users/nickj/.npm/eslint-plugin-standard/1.3.0/package/package.json not in flight; writing
+126 silly install resolved [ { name: 'eslint-config-standard',
+126 silly install resolved     description: 'JavaScript Standard Style - ESLint Shareable Config',
+126 silly install resolved     version: '4.1.0',
+126 silly install resolved     author:
+126 silly install resolved      { name: 'Feross Aboukhadijeh',
+126 silly install resolved        email: 'feross@feross.org',
+126 silly install resolved        url: 'http://feross.org/' },
+126 silly install resolved     bugs: { url: 'https://github.com/feross/eslint-config-standard/issues' },
+126 silly install resolved     peerDependencies: { eslint: '^1.0.0', 'eslint-plugin-standard': '^1.1.0' },
+126 silly install resolved     devDependencies:
+126 silly install resolved      { eslint: '^1.0.0',
+126 silly install resolved        'eslint-plugin-standard': '^1.1.0',
+126 silly install resolved        tape: '^4.0.0' },
+126 silly install resolved     homepage: 'https://github.com/feross/eslint-config-standard',
+126 silly install resolved     keywords:
+126 silly install resolved      [ 'standard',
+126 silly install resolved        'style checker',
+126 silly install resolved        'code style',
+126 silly install resolved        'code checker',
+126 silly install resolved        'code linter',
+126 silly install resolved        'style linter',
+126 silly install resolved        'simple',
+126 silly install resolved        'policy',
+126 silly install resolved        'style',
+126 silly install resolved        'code',
+126 silly install resolved        'lint',
+126 silly install resolved        'eslint',
+126 silly install resolved        'eslintconfig',
+126 silly install resolved        'jshint',
+126 silly install resolved        'jscs',
+126 silly install resolved        'hint',
+126 silly install resolved        'enforce',
+126 silly install resolved        'check',
+126 silly install resolved        'verify',
+126 silly install resolved        'quality',
+126 silly install resolved        'checker',
+126 silly install resolved        'code standards',
+126 silly install resolved        'JavaScript Standard Style',
+126 silly install resolved        'standard style' ],
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     main: 'index.js',
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'git://github.com/feross/eslint-config-standard.git' },
+126 silly install resolved     scripts: { test: 'tape test/*.js' },
+126 silly install resolved     gitHead: '128db13ef15c4179a0d6d4a9e44443e2ee5c8d70',
+126 silly install resolved     _id: 'eslint-config-standard@4.1.0',
+126 silly install resolved     _shasum: '7c7c4cb9f3189d69e29a9162860f5b331023599c',
+126 silly install resolved     _from: 'eslint-config-standard@*',
+126 silly install resolved     _npmVersion: '2.11.3',
+126 silly install resolved     _nodeVersion: '0.12.7',
+126 silly install resolved     _npmUser: { name: 'feross', email: 'feross@feross.org' },
+126 silly install resolved     maintainers: [ [Object] ],
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: '7c7c4cb9f3189d69e29a9162860f5b331023599c',
+126 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-config-standard/-/eslint-config-standard-4.1.0.tgz' },
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-config-standard/-/eslint-config-standard-4.1.0.tgz',
+126 silly install resolved     readme: 'ERROR: No README data found!' },
+126 silly install resolved   { name: 'eslint-config-semistandard',
+126 silly install resolved     description: 'eslint sharable config for semistandard',
+126 silly install resolved     version: '5.0.0',
+126 silly install resolved     author: { name: 'Dan Flettre', email: 'fletd01@yahoo.com' },
+126 silly install resolved     bugs: { url: 'https://github.com/Flet/eslint-config-semistandard/issues' },
+126 silly install resolved     devDependencies:
+126 silly install resolved      { eslint: '^1.0.0',
+126 silly install resolved        'eslint-config-standard': '^4.0.0',
+126 silly install resolved        'eslint-plugin-standard': '^1.2.0',
+126 silly install resolved        standard: '^5.0.0',
+126 silly install resolved        'tap-spec': '^4.0.0',
+126 silly install resolved        tape: '^4.0.0' },
+126 silly install resolved     homepage: 'https://github.com/Flet/eslint-config-semistandard',
+126 silly install resolved     keywords:
+126 silly install resolved      [ 'semistandard',
+126 silly install resolved        'style checker',
+126 silly install resolved        'code style',
+126 silly install resolved        'code checker',
+126 silly install resolved        'code linter',
+126 silly install resolved        'style linter',
+126 silly install resolved        'simple',
+126 silly install resolved        'policy',
+126 silly install resolved        'style',
+126 silly install resolved        'code',
+126 silly install resolved        'lint',
+126 silly install resolved        'eslint',
+126 silly install resolved        'eslintconfig',
+126 silly install resolved        'jshint',
+126 silly install resolved        'jscs',
+126 silly install resolved        'hint',
+126 silly install resolved        'enforce',
+126 silly install resolved        'check',
+126 silly install resolved        'verify',
+126 silly install resolved        'quality',
+126 silly install resolved        'checker',
+126 silly install resolved        'code standards',
+126 silly install resolved        'JavaScript Semistandard Style',
+126 silly install resolved        'semistandard style',
+126 silly install resolved        'eslintconfig' ],
+126 silly install resolved     license: 'ISC',
+126 silly install resolved     main: 'index.js',
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'git+https://github.com/Flet/eslint-config-semistandard.git' },
+126 silly install resolved     scripts: { test: 'standard && tape test/*.js | tap-spec' },
+126 silly install resolved     peerDependencies:
+126 silly install resolved      { eslint: '^1.0.0',
+126 silly install resolved        'eslint-config-standard': '^4.0.0',
+126 silly install resolved        'eslint-plugin-standard': '^1.2.0' },
+126 silly install resolved     gitHead: 'f0f79ec417e54df92339aa98605b62d921959343',
+126 silly install resolved     _id: 'eslint-config-semistandard@5.0.0',
+126 silly install resolved     _shasum: 'af49f5802078051a99a84e5027f3917f784612ad',
+126 silly install resolved     _from: 'eslint-config-semistandard@*',
+126 silly install resolved     _npmVersion: '2.13.0',
+126 silly install resolved     _nodeVersion: '2.4.0',
+126 silly install resolved     _npmUser: { name: 'flet', email: 'flettre@gmail.com' },
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: 'af49f5802078051a99a84e5027f3917f784612ad',
+126 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-config-semistandard/-/eslint-config-semistandard-5.0.0.tgz' },
+126 silly install resolved     maintainers: [ [Object] ],
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-config-semistandard/-/eslint-config-semistandard-5.0.0.tgz',
+126 silly install resolved     readme: 'ERROR: No README data found!' },
+126 silly install resolved   { name: 'eslint-plugin-cycle',
+126 silly install resolved     version: '1.0.1',
+126 silly install resolved     description: 'ESLint plugin with Cyclejs-specific rules',
+126 silly install resolved     main: 'index.js',
+126 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'git+https://github.com/cyclejs/eslint-plugin-cycle.git' },
+126 silly install resolved     keywords: [ 'cycle', 'cyclejs', 'eslint', 'eslint-plugin', 'eslintplugin' ],
+126 silly install resolved     peerDependencies: { eslint: '1.0.x' },
+126 silly install resolved     author:
+126 silly install resolved      { name: 'Andre Staltz',
+126 silly install resolved        email: 'andre+npm@staltz.com',
+126 silly install resolved        url: 'http://andre.staltz.com/' },
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     bugs: { url: 'https://github.com/cyclejs/eslint-plugin-cycle/issues' },
+126 silly install resolved     homepage: 'https://github.com/cyclejs/eslint-plugin-cycle',
+126 silly install resolved     gitHead: '98d43674ce628f023df6388557fb188c1a1b1330',
+126 silly install resolved     _id: 'eslint-plugin-cycle@1.0.1',
+126 silly install resolved     _shasum: '68d0719a68a39432e560bd42d94d9db30adaff93',
+126 silly install resolved     _from: 'eslint-plugin-cycle@*',
+126 silly install resolved     _npmVersion: '2.13.0',
+126 silly install resolved     _nodeVersion: '0.10.26',
+126 silly install resolved     _npmUser: { name: 'cycle', email: 'andre+npmcycle@staltz.com' },
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: '68d0719a68a39432e560bd42d94d9db30adaff93',
+126 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-plugin-cycle/-/eslint-plugin-cycle-1.0.1.tgz' },
+126 silly install resolved     maintainers: [ [Object], [Object] ],
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-plugin-cycle/-/eslint-plugin-cycle-1.0.1.tgz',
+126 silly install resolved     readme: 'ERROR: No README data found!' },
+126 silly install resolved   { name: 'eslint-plugin-standard',
+126 silly install resolved     version: '1.3.0',
+126 silly install resolved     description: 'ESlint Plugin for the Standard Linter',
+126 silly install resolved     main: 'index.js',
+126 silly install resolved     scripts: { test: 'standard && mocha tests/' },
+126 silly install resolved     repository:
+126 silly install resolved      { type: 'git',
+126 silly install resolved        url: 'git+https://github.com/xjamundx/eslint-plugin-standard.git' },
+126 silly install resolved     keywords: [ 'eslint', 'eslintplugin' ],
+126 silly install resolved     author: { name: 'Jamund Ferguson', email: 'jamund@gmail.com' },
+126 silly install resolved     license: 'MIT',
+126 silly install resolved     bugs: { url: 'https://github.com/xjamundx/eslint-plugin-standard/issues' },
+126 silly install resolved     homepage: 'https://github.com/xjamundx/eslint-plugin-standard#readme',
+126 silly install resolved     devDependencies:
+126 silly install resolved      { eslint: '^1.0.0',
+126 silly install resolved        'eslint-tester': '^0.8.2',
+126 silly install resolved        mocha: '^2.2.5',
+126 silly install resolved        standard: '^4.5.4' },
+126 silly install resolved     peerDependencies: { eslint: '^1.0.0' },
+126 silly install resolved     dependencies: {},
+126 silly install resolved     gitHead: '1520a1d8785a4973b108e75af85e2c3c21e7eaa7',
+126 silly install resolved     _id: 'eslint-plugin-standard@1.3.0',
+126 silly install resolved     _shasum: 'eb756b8db0f306f6c7a53f14df42e5663849f15d',
+126 silly install resolved     _from: 'eslint-plugin-standard@*',
+126 silly install resolved     _npmVersion: '2.13.1',
+126 silly install resolved     _nodeVersion: '0.12.6',
+126 silly install resolved     _npmUser: { name: 'xjamundx', email: 'jamund@gmail.com' },
+126 silly install resolved     maintainers: [ [Object], [Object] ],
+126 silly install resolved     dist:
+126 silly install resolved      { shasum: 'eb756b8db0f306f6c7a53f14df42e5663849f15d',
+126 silly install resolved        tarball: 'http://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-1.3.0.tgz' },
+126 silly install resolved     directories: {},
+126 silly install resolved     _resolved: 'https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-1.3.0.tgz',
+126 silly install resolved     readme: 'ERROR: No README data found!' } ]
+127 info install eslint-config-standard@4.1.0 into /usr/local/lib
+128 info install eslint-config-semistandard@5.0.0 into /usr/local/lib
+129 info install eslint-plugin-cycle@1.0.1 into /usr/local/lib
+130 info install eslint-plugin-standard@1.3.0 into /usr/local/lib
+131 info installOne eslint-config-standard@4.1.0
+132 info installOne eslint-config-semistandard@5.0.0
+133 info installOne eslint-plugin-cycle@1.0.1
+134 info installOne eslint-plugin-standard@1.3.0
+135 verbose lock using /Users/nickj/.npm/_locks/eslint-config-semistanda-c3fd2372d23c42e8.lock for /usr/local/lib/node_modules/eslint-config-semistandard
+136 verbose lock using /Users/nickj/.npm/_locks/eslint-config-standard-a299224f3146836a.lock for /usr/local/lib/node_modules/eslint-config-standard
+137 verbose lock using /Users/nickj/.npm/_locks/eslint-plugin-cycle-85e9c701ef14b96a.lock for /usr/local/lib/node_modules/eslint-plugin-cycle
+138 verbose lock using /Users/nickj/.npm/_locks/eslint-plugin-standard-dbbd0cb4b1a676e8.lock for /usr/local/lib/node_modules/eslint-plugin-standard
+139 verbose unbuild lib/node_modules/eslint-config-semistandard
+140 verbose unbuild lib/node_modules/eslint-config-standard
+141 verbose unbuild lib/node_modules/eslint-plugin-cycle
+142 verbose unbuild lib/node_modules/eslint-plugin-standard
+143 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-config-semistandard
+144 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-config-standard
+145 verbose tar unpack /Users/nickj/.npm/eslint-config-semistandard/5.0.0/package.tgz
+146 verbose tar unpacking to /usr/local/lib/node_modules/eslint-config-semistandard
+147 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-config-semistandard
+148 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-plugin-cycle
+149 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-plugin-standard
+150 verbose tar unpack /Users/nickj/.npm/eslint-config-standard/4.1.0/package.tgz
+151 verbose tar unpacking to /usr/local/lib/node_modules/eslint-config-standard
+152 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-config-standard
+153 silly gunzTarPerm modes [ '700', '600' ]
+154 verbose tar unpack /Users/nickj/.npm/eslint-plugin-cycle/1.0.1/package.tgz
+155 verbose tar unpacking to /usr/local/lib/node_modules/eslint-plugin-cycle
+156 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-plugin-cycle
+157 verbose tar unpack /Users/nickj/.npm/eslint-plugin-standard/1.3.0/package.tgz
+158 verbose tar unpacking to /usr/local/lib/node_modules/eslint-plugin-standard
+159 verbose gentlyRm vacuuming /usr/local/lib/node_modules/eslint-plugin-standard
+160 silly gunzTarPerm modes [ '700', '600' ]
+161 silly gunzTarPerm modes [ '700', '600' ]
+162 silly gunzTarPerm modes [ '700', '600' ]
+163 silly gunzTarPerm extractEntry package.json
+164 silly gunzTarPerm modified mode [ 'package.json', 436, 384 ]
+165 silly gunzTarPerm extractEntry package.json
+166 silly gunzTarPerm modified mode [ 'package.json', 420, 384 ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm modified mode [ 'package.json', 420, 384 ]
+169 silly gunzTarPerm extractEntry package.json
+170 silly gunzTarPerm modified mode [ 'package.json', 420, 384 ]
+171 silly gunzTarPerm extractEntry .npmignore
+172 silly gunzTarPerm modified mode [ '.npmignore', 436, 384 ]
+173 silly gunzTarPerm extractEntry README.md
+174 silly gunzTarPerm modified mode [ 'README.md', 436, 384 ]
+175 silly gunzTarPerm extractEntry .npmignore
+176 silly gunzTarPerm modified mode [ '.npmignore', 420, 384 ]
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm modified mode [ 'README.md', 420, 384 ]
+179 silly gunzTarPerm extractEntry .npmignore
+180 silly gunzTarPerm modified mode [ '.npmignore', 420, 384 ]
+181 silly gunzTarPerm extractEntry README.md
+182 silly gunzTarPerm modified mode [ 'README.md', 420, 384 ]
+183 silly gunzTarPerm extractEntry .npmignore
+184 silly gunzTarPerm modified mode [ '.npmignore', 420, 384 ]
+185 silly gunzTarPerm extractEntry README.md
+186 silly gunzTarPerm modified mode [ 'README.md', 420, 384 ]
+187 silly gunzTarPerm extractEntry LICENSE
+188 silly gunzTarPerm modified mode [ 'LICENSE', 420, 384 ]
+189 silly gunzTarPerm extractEntry index.js
+190 silly gunzTarPerm modified mode [ 'index.js', 420, 384 ]
+191 silly gunzTarPerm extractEntry LICENSE
+192 silly gunzTarPerm modified mode [ 'LICENSE', 420, 384 ]
+193 silly gunzTarPerm extractEntry index.js
+194 silly gunzTarPerm modified mode [ 'index.js', 420, 384 ]
+195 silly gunzTarPerm extractEntry LICENSE
+196 silly gunzTarPerm modified mode [ 'LICENSE', 420, 384 ]
+197 silly gunzTarPerm extractEntry index.js
+198 silly gunzTarPerm modified mode [ 'index.js', 420, 384 ]
+199 silly gunzTarPerm extractEntry index.js
+200 silly gunzTarPerm modified mode [ 'index.js', 436, 384 ]
+201 silly gunzTarPerm extractEntry CONTRIBUTING.md
+202 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 384 ]
+203 silly gunzTarPerm extractEntry .travis.yml
+204 silly gunzTarPerm modified mode [ '.travis.yml', 420, 384 ]
+205 silly gunzTarPerm extractEntry eslintrc.json
+206 silly gunzTarPerm modified mode [ 'eslintrc.json', 420, 384 ]
+207 silly gunzTarPerm extractEntry rules/array-bracket-even-spacing.js
+208 silly gunzTarPerm modified mode [ 'rules/array-bracket-even-spacing.js', 420, 384 ]
+209 silly gunzTarPerm extractEntry .editorconfig
+210 silly gunzTarPerm modified mode [ '.editorconfig', 420, 384 ]
+211 silly gunzTarPerm extractEntry lib/rules/brace-style.js
+212 silly gunzTarPerm modified mode [ 'lib/rules/brace-style.js', 420, 384 ]
+213 silly gunzTarPerm extractEntry LICENSE.md
+214 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 384 ]
+215 silly gunzTarPerm extractEntry eslintrc.json
+216 silly gunzTarPerm modified mode [ 'eslintrc.json', 436, 384 ]
+217 silly gunzTarPerm extractEntry rules/computed-property-even-spacing.js
+218 silly gunzTarPerm modified mode [ 'rules/computed-property-even-spacing.js', 420, 384 ]
+219 silly gunzTarPerm extractEntry rules/object-curly-even-spacing.js
+220 silly gunzTarPerm modified mode [ 'rules/object-curly-even-spacing.js', 420, 384 ]
+221 silly gunzTarPerm extractEntry .travis.yml
+222 silly gunzTarPerm modified mode [ '.travis.yml', 436, 384 ]
+223 silly gunzTarPerm extractEntry CHANGELOG.md
+224 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 384 ]
+225 silly gunzTarPerm extractEntry test/basic.js
+226 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 384 ]
+227 silly gunzTarPerm extractEntry test/validate-config.js
+228 silly gunzTarPerm modified mode [ 'test/validate-config.js', 420, 384 ]
+229 silly gunzTarPerm extractEntry .eslintrc
+230 silly gunzTarPerm modified mode [ '.eslintrc', 420, 384 ]
+231 silly gunzTarPerm extractEntry tests/array-bracket-even-spacing.js
+232 silly gunzTarPerm modified mode [ 'tests/array-bracket-even-spacing.js', 420, 384 ]
+233 silly gunzTarPerm extractEntry test/index.js
+234 silly gunzTarPerm modified mode [ 'test/index.js', 436, 384 ]
+235 silly gunzTarPerm extractEntry tests/computed-property-even-spacing.js
+236 silly gunzTarPerm modified mode [ 'tests/computed-property-even-spacing.js', 420, 384 ]
+237 silly gunzTarPerm extractEntry tests/object-curly-even-spacing.js
+238 silly gunzTarPerm modified mode [ 'tests/object-curly-even-spacing.js', 420, 384 ]
+239 info preinstall eslint-plugin-cycle@1.0.1
+240 silly install resolved []
+241 verbose about to build /usr/local/lib/node_modules/eslint-plugin-cycle
+242 info build /usr/local/lib/node_modules/eslint-plugin-cycle
+243 verbose linkStuff [ true,
+243 verbose linkStuff   '/usr/local/lib/node_modules',
+243 verbose linkStuff   true,
+243 verbose linkStuff   '/usr/local/lib/node_modules' ]
+244 info linkStuff eslint-plugin-cycle@1.0.1
+245 verbose linkBins eslint-plugin-cycle@1.0.1
+246 verbose linkMans eslint-plugin-cycle@1.0.1
+247 verbose rebuildBundles eslint-plugin-cycle@1.0.1
+248 info install eslint-plugin-cycle@1.0.1
+249 info preinstall eslint-config-standard@4.1.0
+250 info postinstall eslint-plugin-cycle@1.0.1
+251 info preinstall eslint-config-semistandard@5.0.0
+252 silly install resolved []
+253 verbose about to build /usr/local/lib/node_modules/eslint-config-standard
+254 info build /usr/local/lib/node_modules/eslint-config-standard
+255 verbose linkStuff [ true,
+255 verbose linkStuff   '/usr/local/lib/node_modules',
+255 verbose linkStuff   true,
+255 verbose linkStuff   '/usr/local/lib/node_modules' ]
+256 info linkStuff eslint-config-standard@4.1.0
+257 verbose linkBins eslint-config-standard@4.1.0
+258 verbose linkMans eslint-config-standard@4.1.0
+259 verbose rebuildBundles eslint-config-standard@4.1.0
+260 info install eslint-config-standard@4.1.0
+261 silly install resolved []
+262 verbose about to build /usr/local/lib/node_modules/eslint-config-semistandard
+263 info build /usr/local/lib/node_modules/eslint-config-semistandard
+264 verbose linkStuff [ true,
+264 verbose linkStuff   '/usr/local/lib/node_modules',
+264 verbose linkStuff   true,
+264 verbose linkStuff   '/usr/local/lib/node_modules' ]
+265 info linkStuff eslint-config-semistandard@5.0.0
+266 verbose linkBins eslint-config-semistandard@5.0.0
+267 verbose linkMans eslint-config-semistandard@5.0.0
+268 verbose rebuildBundles eslint-config-semistandard@5.0.0
+269 info postinstall eslint-config-standard@4.1.0
+270 info install eslint-config-semistandard@5.0.0
+271 info postinstall eslint-config-semistandard@5.0.0
+272 verbose already installed skipping eslint@1.0.x /usr/local/lib
+273 silly install resolved []
+274 verbose unlock done using /Users/nickj/.npm/_locks/eslint-plugin-cycle-85e9c701ef14b96a.lock for /usr/local/lib/node_modules/eslint-plugin-cycle
+275 verbose already installed skipping eslint@^1.0.0 /usr/local/lib
+276 silly install resolved []
+277 verbose unlock done using /Users/nickj/.npm/_locks/eslint-config-standard-a299224f3146836a.lock for /usr/local/lib/node_modules/eslint-config-standard
+278 info preinstall eslint-plugin-standard@1.3.0
+279 verbose already installed skipping eslint@^1.0.0 /usr/local/lib
+280 silly install resolved []
+281 verbose unlock done using /Users/nickj/.npm/_locks/eslint-config-semistanda-c3fd2372d23c42e8.lock for /usr/local/lib/node_modules/eslint-config-semistandard
+282 silly install resolved []
+283 verbose about to build /usr/local/lib/node_modules/eslint-plugin-standard
+284 info build /usr/local/lib/node_modules/eslint-plugin-standard
+285 verbose linkStuff [ true,
+285 verbose linkStuff   '/usr/local/lib/node_modules',
+285 verbose linkStuff   true,
+285 verbose linkStuff   '/usr/local/lib/node_modules' ]
+286 info linkStuff eslint-plugin-standard@1.3.0
+287 verbose linkBins eslint-plugin-standard@1.3.0
+288 verbose linkMans eslint-plugin-standard@1.3.0
+289 verbose rebuildBundles eslint-plugin-standard@1.3.0
+290 info install eslint-plugin-standard@1.3.0
+291 info postinstall eslint-plugin-standard@1.3.0
+292 verbose already installed skipping eslint@^1.0.0 /usr/local/lib
+293 silly install resolved []
+294 verbose unlock done using /Users/nickj/.npm/_locks/eslint-plugin-standard-dbbd0cb4b1a676e8.lock for /usr/local/lib/node_modules/eslint-plugin-standard
+295 verbose stack Error: The package eslint does not satisfy its siblings' peerDependencies requirements!
+295 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:102:32
+295 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:206:5
+295 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+295 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+295 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+295 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+295 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+295 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+295 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+295 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+296 verbose cwd /Users/nickj/Projects/cycle-time-travel-test
+297 error Darwin 14.4.0
+298 error argv "node" "/usr/local/bin/npm" "install" "eslint-config-semistandard" "eslint-config-standard" "eslint-plugin-cycle" "eslint-plugin-standard" "-g"
+299 error node v0.10.32
+300 error npm  v2.1.3
+301 error code EPEERINVALID
+302 error peerinvalid The package eslint does not satisfy its siblings' peerDependencies requirements!
+302 error peerinvalid Peer eslint-config-semistandard@5.0.0 wants eslint@^1.0.0
+302 error peerinvalid Peer eslint-config-standard@4.1.0 wants eslint@^1.0.0
+302 error peerinvalid Peer eslint-plugin-cycle@1.0.1 wants eslint@1.0.x
+302 error peerinvalid Peer eslint-plugin-standard@1.3.0 wants eslint@^1.0.0
+303 verbose exit [ 1, true ]
