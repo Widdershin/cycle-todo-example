@@ -74,7 +74,7 @@ function todos (DOM) {
     ).startWith([]);
 
   const time = timeTravel(DOM, [
-    {stream: todoState$, label: 'todoState$'},
+    {stream: todoState$, label: 'todoState$', feature: true},
     {stream: toggleDone$, label: 'toggleDone$'},
     {stream: newTodo$, label: 'newTodo$'}
   ]);
