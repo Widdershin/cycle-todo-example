@@ -46,6 +46,10 @@ function newTodo (todo) {
   }
 }
 
+function clearDone () {
+  return (todos) => todos.filter(todo => !todo.done)
+}
+
 function newTodoForm () {
   return (
     h('.new-todo', [
@@ -63,9 +67,12 @@ function todos (DOM) {
     .map(ev => ev.target.value)
     .sample(DOM.get('.create-new-todo', 'click'));
 
+  const clearDone$ = DOM.get('.clear-done', 'click');
+
   const modifier$ = Rx.Observable.merge(
     toggleDone$.map(toggleDone),
-    newTodo$.map(newTodo)
+    newTodo$.map(newTodo),
+    clearDone$.map(clearDone)
   );
 
   const todoState$ = modifier$.scan(
@@ -92,6 +99,7 @@ function todos (DOM) {
       time.DOM,
       (todos, timeTravelLog) => h('.app', [
         newTodoForm(),
+        h('button.clear-done', 'Clear done'),
         todos,
         timeTravelLog
       ])
