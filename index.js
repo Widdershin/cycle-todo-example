@@ -5,7 +5,7 @@ const timeTravel = require('cycle-time-travel');
 function renderTodo (todo) {
   return h('.todo', [
     h('.item', todo.todo),
-    h('input.done', {type: 'checkbox', checked: todo.done})
+    h('input.done', {type: 'checkbox', checked: todo.done ? 'checked' : ''})
   ]);
 }
 
@@ -15,14 +15,35 @@ function renderTodos (todos) {
   );
 }
 
+function toggleDone (todos) {
+  const todo = todos[0];
+
+  return [{...todo, done: !todo.done}];
+}
+
 function todos (DOM) {
-  const todoState$ = Rx.Observable.just([
-    {todo: 'do this', done: false}
-  ]);
+  const done$ = DOM.get('.done', 'click')
+    .map(ev => ev.target.checked)
+    .startWith(false);
+
+  const modifier$ = done$.map(_ => toggleDone);
+
+  const todoState$ = modifier$.scan(
+      (state, modifier) => modifier(state),
+      [{todo: 'do this', done: true, index: 0}]
+    );
 
   const time = timeTravel(DOM, [
-    {stream: todoState$, label: 'todoState$'}
-  ])
+    {stream: todoState$, label: 'todoState$'},
+    {stream: done$, label: 'done$'}
+  ]);
+
+  function log (label) {
+    return (thing) => {
+      console.log(label, thing[0]);
+      return thing;
+    }
+  }
 
   return {
     DOM: Rx.Observable.combineLatest(
